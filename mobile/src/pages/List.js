@@ -20,6 +20,8 @@ export default function List() {
       })
     })
   }, []);
+  
+  //Testes
 
   useEffect(() => {
     AsyncStorage.getItem('techs').then(storagedTechs => {
